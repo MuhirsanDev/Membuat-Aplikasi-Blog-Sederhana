@@ -7,8 +7,8 @@ Route::get('/', function () {
     return view('home', ['title' => 'Home Page']);
 });
 
-Route::get('/blog', function () {
-    return view('blog', ['title' => 'Blog']);
+Route::get('/posts', function () {
+    return view('posts', ['title' => 'Blog']);
 });
 
 Route::get('/contact', function () {
